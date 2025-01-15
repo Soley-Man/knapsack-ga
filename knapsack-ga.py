@@ -39,7 +39,7 @@ with open(items_file, mode='r') as file:
               "Volume" : int(row[3])} for row in reader]
 
 # Genetic algorithm parameters
-num_generations = 100
+num_generations = 10000
 num_parents_mating = 4
 
 sol_per_pop = 10
